@@ -2,7 +2,8 @@
 ### `yarn install`
 ### `yarn build`
 ### `pm2 start "serve -s dist -l 3003" --name "vite-yarn"`
-
+### `docker buildx build -t <image name> .`
+### `docker run -d -p <host port>:<container port> --name <container name> <image name>`
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
